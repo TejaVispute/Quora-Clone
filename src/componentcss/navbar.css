@@ -1,0 +1,114 @@
+.navbar {
+    height: 7%;
+    /* background-color: burlywood; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    /* background-color: rebeccapurple; */
+}
+
+.mid-navbar {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: skyblue; */
+}
+
+.logo {
+    padding: 5px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.pages {
+    width: 90%;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    margin-left: 2rem;
+    
+}
+
+.pages div {
+    margin-right: 1.5rem;
+    
+}
+
+.pages div i {
+    font-size: 1.3rem;
+    
+}
+
+.user img {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.button-addquestion button {
+    background-color: #b92b27;
+    color: whitesmoke;
+    font-size: 1.1rem;
+    padding: 5px 20px;
+    border-radius: 15px;
+    border: 0;
+}
+
+.earth-icon i {
+    font-size: 1.5rem;
+}
+
+
+.tryquora span {
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+
+.input input {
+    padding: 7px;
+    width: 350px;
+    border: 0;
+    font-size: 1.1rem;
+    padding-left: 2rem
+}
+
+.input {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+
+.input i {
+    position: relative;
+    left: 25px;
+    top: 2px;
+    color: grey;
+}
+
+.input input[type="text"]::placeholder {
+    text-align: center;
+
+}
+
+*:focus {
+    outline: none;
+}
+
+
+
+
+
+
+
+
+.logo img:hover {
+    opacity: 0.8;
+}
+
+.input:hover {
+ 
+    border: 0.1px solid skyblue;
+}
