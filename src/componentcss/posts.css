@@ -1,0 +1,43 @@
+.posts-entery {
+    height: 80%;
+    color: black;
+    /* background-color: skyblue; */
+    margin-top: 1rem;
+    text-align: start;
+    /* border: 1px solid red; */
+    
+}
+
+.upper-section-post {
+    /* background-color: rgb(165, 151, 42); */
+
+    background-color: white;
+    height: 30%;
+}
+
+.logofuser img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.post-image img {
+    width: 100%;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo-name {
+    display: flex;
+}
+
+.name-follow-answer-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+.lower-post-section{
+    height: 30%;
+    background-color: rebeccapurple;
+}

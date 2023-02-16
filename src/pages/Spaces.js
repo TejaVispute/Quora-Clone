@@ -1,6 +1,10 @@
+import '../pagescss/spaces.css'
 const Spaces = () => {
     return (
-        <h1>This is Spaces page </h1>
+        <div className="spaces-wrapper">
+            <h1>This is Spaces page </h1>
+        </div>
+
     )
 }
 

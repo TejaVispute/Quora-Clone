@@ -1,12 +1,11 @@
 .navbar {
-    height: 7%;
-    /* background-color: burlywood; */
+    height: 8%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: white;
-    /* background-color: rebeccapurple; */
+    z-index: 1;
 }
 
 .mid-navbar {
@@ -17,7 +16,7 @@
 }
 
 .logo {
-    padding: 5px;
+    padding: 10px;
 }
 
 .logo img {
@@ -30,17 +29,17 @@
     /* justify-content: space-around; */
     align-items: center;
     margin-left: 2rem;
-    
+
 }
 
 .pages div {
     margin-right: 1.5rem;
-    
+
 }
 
 .pages div i {
     font-size: 1.3rem;
-    
+    color: rgba(70, 65, 65, 0.897);
 }
 
 .user img {
@@ -78,7 +77,7 @@
 
 .input {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    
+
 }
 
 .input i {
@@ -98,7 +97,14 @@
 }
 
 
+.red {
+    background-color: red;
+}
 
+.black {
+    color: rgba(70, 65, 65, 0.897);
+
+}
 
 
 
@@ -109,6 +115,13 @@
 }
 
 .input:hover {
- 
+
     border: 0.1px solid skyblue;
 }
+
+.dropdown-item {
+    color: black;
+    border-bottom: 0px;
+    cursor: pointer;
+}
+

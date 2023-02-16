@@ -28,7 +28,7 @@ function Register() {
 
                     </div>
 
-                    <div className="btn">
+                    <div className="btn-register">
                         <button className='btn btn-danger'>CREATE ACCOUNT</button>
                     </div>
                     <div className="new-custumer">

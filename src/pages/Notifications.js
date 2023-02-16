@@ -1,6 +1,10 @@
+import '../pagescss/notifications.css'
 const Notifications = () => {
     return (
-        <h1>This is notifications section </h1>
+        <div className="notification-wrapper">
+            <h1>This is notifications section </h1>
+        </div>
+
     )
 }
 

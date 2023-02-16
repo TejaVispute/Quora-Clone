@@ -1,8 +1,10 @@
 import React from 'react'
-
+import '../pagescss/answer.css'
 function Answer() {
     return (
-        <h1>This is our answer Page</h1>
+        <div className="answer-wrapper">
+            <h1>This is our answer Page</h1>
+        </div>
     )
 }
 

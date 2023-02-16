@@ -6,6 +6,7 @@
 }
 
 .container {
+    margin-top: 4rem;
     height: 85vh;
     width: 100%;
     /* background-color: skyblue; */
@@ -78,7 +79,7 @@
     margin-top: .7rem;
 }
 
-.btn button {
+.btn-login button {
     width: 100%;
     padding: 1rem;
     background-color: rgb(255, 0, 0);
@@ -99,11 +100,11 @@ input:focus {
 
 .forgot-password {
     position: relative;
-    left: 68%;
+    left: 30%;
     border-bottom: 1px solid grey;
     font-weight: bold;
     color: grey;
-    top: -34px;
+    top: -42px;
 }
 
 .new-custumer {
