@@ -8,7 +8,7 @@ const YourInterests = () => {
       {Interests.map((e) => {
         let url = `/interests/${e.field}`;
         return (
-          <NavLink to={url} style={{color:"black",textDecoration:"none"}}>
+          <NavLink to={url} style={{ color: "black", textDecoration: "none" }}>
             <div className="mt-2 interest-box">
               <div>
                 <img className="interest-icon" src={e.icon} alt="" />

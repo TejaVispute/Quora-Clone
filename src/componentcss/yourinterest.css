@@ -1,6 +1,7 @@
 .interest-left-container {
     /* background-color: rebeccapurple; */
     padding: 10px;
+    font-size: 13px;
 }
 
 .interest-icon {
@@ -21,5 +22,5 @@
 
 
 .interest-box:hover{
-    background-color: rgba(40, 168, 253, 0.201);
+    background-color: rgba(182, 191, 197, 0.201);
 }

@@ -1,22 +1,32 @@
 let PostsData = [
   {
     userlogo:
-      "https://www.pngitem.com/pimgs/m/130-1300253_female-user-icon-png-download-user-image-color.png",
+      "https://static.generated.photos/vue-static/face-generator/landing/demo-previews/sex.jpg",
     name: "Tejas Vispute",
-    answeredby: "billgates",
+    answeredby: "Newton",
+    question:
+      "Gravity is often demonstrated in 2 dimensions like a heavy object on a bed sheet. How does this actually translate into our 3 dimensional reality? ?",
+    image:
+      "https://qph.cf2.quoracdn.net/main-qimg-663d0a10e20f5e7c583b563c61974c51",
+  },
+  {
+    userlogo:
+      "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-6.jpg",
+    name: "Brock Lesner",
+    answeredby: "Mr Bean",
     question: "Can you tell me something inspiring ?",
     image:
-      "https://qph.cf2.quoracdn.net/main-qimg-cfb3053ef74d12476d772331c44e50fd-lq",
+      "https://qph.cf2.quoracdn.net/main-qimg-c91d1ea858c41615ab80ffe0b5917b38",
   },
-//   {
-//     userlogo:
-//       "https://www.pngitem.com/pimgs/m/130-1300253_female-user-icon-png-download-user-image-color.png",
-//     name: "Tejas Vispute",
-//     answeredby: "billgates",
-//     question: "Can you tell me something inspiring ?",
-//     image:
-//       "https://qph.cf2.quoracdn.net/main-qimg-d8db59e65f94a920a9e2e32ca2ce0413-lq",
-//   },
+  {
+    userlogo:
+      "https://wac-cdn.atlassian.com/dam/jcr:ba03a215-2f45-40f5-8540-b2015223c918/Max-R_Headshot%20(1).jpg?cdnVersion=789",
+    name: "Andersan willy",
+    answeredby: "Mr Indian",
+    question: "What are some facts about indians ?",
+    image:
+      "https://qph.cf2.quoracdn.net/main-qimg-e792c35986d98795929ab3e27a67348d",
+  },
 ];
 
 export { PostsData };

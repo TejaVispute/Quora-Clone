@@ -4,11 +4,13 @@ import { useParams } from "react-router-dom";
 import "../pagescss/interestdetails.css";
 import { Interests } from "../ArrayOfDatas/interestsArr";
 function InterestsDetails() {
-  let {name} = useParams();
- 
+  let { name } = useParams();
+
   // console.log(Interests)
-      let findInArr= Interests.find((value)=>value.field===name);
-console.log(findInArr)
+  let { icon, field, following } = Interests.find(
+    (value) => value.field === name
+  );
+  // console.log(findInArr);
 
   return (
     <div className="main-interest-details">
@@ -17,15 +19,12 @@ console.log(findInArr)
         <div className="mid-content-details">
           <div className="field-img-follow">
             <div className="left-img-details">
-              <img
-                src={findInArr.icon}
-                alt="hii"
-              />
+              <img src={icon} alt="not found " />
             </div>
             <div className="follower-name">
-              <h4>{findInArr.field}</h4>
+              <h4>{field}</h4>
               <div>
-                <button>Following {findInArr.following}</button>
+                <button>Following {following}</button>
                 {/* <i class="fa-solid fa-ellipsis"></i> */}
               </div>
             </div>

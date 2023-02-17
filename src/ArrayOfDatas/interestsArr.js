@@ -1,10 +1,5 @@
 const Interests = [
-  {
-    field: "Create space",
-    image: "",
-    following: "1M",
-    // icon: <i class="fa-solid fa-plus mx-2"></i>,
-  },
+
   {
     field: "Fiance",
     image: "",

@@ -1,5 +1,5 @@
 .add-que-wrapper {
-    height: 17vh;
+    height: 13vh;
     padding: 10px;
     /* background-color: violet; */
     background-color: white;
@@ -25,6 +25,7 @@
     padding: 5px;
     border-radius: 1rem;
     border: 0;
+    background-color: #F1F2F2;
 }
 
 .lower-qu {
@@ -40,6 +41,7 @@
     cursor: pointer;
     width: 100%;
     padding: 10px;
+    font-size: 14px;
 
 
 }

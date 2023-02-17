@@ -1,17 +1,21 @@
 .posts-entery {
     height: 80%;
+    width: 100%;
     color: black;
-    /* background-color: skyblue; */
+
     margin-top: 1rem;
     text-align: start;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     /* border: 1px solid red; */
-    
+
 }
 
 .upper-section-post {
     /* background-color: rgb(165, 151, 42); */
-
+    padding: 7px;
     background-color: white;
+    /* background-color: red; */
+
     height: 30%;
 }
 
@@ -22,7 +26,7 @@
 
 .post-image img {
     width: 100%;
-    height: 50%;
+    height: 20%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,12 +36,29 @@
     display: flex;
 }
 
-.name-follow-answer-wrapper{
+.name-follow-answer-wrapper {
     display: flex;
     flex-direction: column;
     margin-left: 1rem;
 }
-.lower-post-section{
-    height: 30%;
-    background-color: rebeccapurple;
+
+.lower-post-section {
+    /* height: 100%; */
+    height: 7vh;
+    /* background-color: rebeccapurple; */
+}
+
+.button-up-down button {
+    width: 10%;
+    border: 0;
+    margin-top: 12px;
+    border-radius: 12px;
+    margin-left: 7px;
+    background-color: white;
+    padding: 7px 10px;
+
+}
+
+.button-up-down button:hover {
+    background-color: rgba(182, 191, 197, 0.201);
 }

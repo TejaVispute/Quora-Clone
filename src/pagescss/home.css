@@ -19,7 +19,7 @@
 
 
 .left-section {
-    width: 15%;
+    width: 13%;
     height: 100%;
     /* background-color: white; */
     position: sticky;
@@ -33,13 +33,13 @@
     width: 50%;
     height: 100%;
     /* background-color: cadetblue; */
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
 }
 
 .right-section {
     width: 30%;
     height: 60%;
-    background-color: crimson;
+    /* background-color: crimson; */
     position: sticky;
     top: 4rem;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;

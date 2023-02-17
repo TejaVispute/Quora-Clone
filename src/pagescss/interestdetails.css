@@ -26,7 +26,7 @@
 
 .mid-content-details {
     width: 50%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 .right-content-details {
@@ -49,9 +49,11 @@
 .follower-name {
     margin-left: 1rem;
 }
-.left-img-details{
+
+.left-img-details {
     margin-left: 10px;
 }
+
 .left-img-details img {
     width: 60px;
     height: 60px;

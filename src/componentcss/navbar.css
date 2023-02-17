@@ -29,17 +29,19 @@
     /* justify-content: space-around; */
     align-items: center;
     margin-left: 2rem;
-
+    /* background-color: rebeccapurple; */
 }
 
-.pages div {
+.pages .log {
     margin-right: 1.5rem;
 
 }
 
-.pages div i {
+.pages .log i {
     font-size: 1.3rem;
-    color: rgba(70, 65, 65, 0.897);
+
+    /* background-color: red; */
+
 }
 
 .user img {
@@ -98,10 +100,13 @@
 
 
 .red {
-    background-color: red;
+    color: #b92b27;
+    border-bottom: 4px solid #b92b27;
+
+
 }
 
-.black {
+.blue {
     color: rgba(70, 65, 65, 0.897);
 
 }
@@ -124,4 +129,3 @@
     border-bottom: 0px;
     cursor: pointer;
 }
-

@@ -26,9 +26,9 @@ const Following = () => {
             </div>
           </div>
 
-          <div className="lower-discover">
-            <h4>Discover Spaces</h4>
-            <h6>Spaces you might like</h6>
+          <div className="lower-discover ">
+            <h4 className="mx-3 mt-2">Discover Spaces</h4>
+            <h6 className="mx-3 mt-1">Spaces you might like</h6>
             <hr />
             <DiscoverSpaces />
           </div>
