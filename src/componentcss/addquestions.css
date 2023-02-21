@@ -19,8 +19,12 @@
     align-items: center;
 }
 
+.addqu {
+    width: 100%;
+}
+
 .addqu input {
-    width: 250%;
+    width: 90%;
     margin-left: 1rem;
     padding: 5px;
     border-radius: 1rem;

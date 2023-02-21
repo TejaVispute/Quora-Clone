@@ -1,6 +1,7 @@
 import DiscoverSpaces from "../components/DiscoverSpaces";
 import YourInterests from "../components/YourInterests";
 import "../pagescss/following.css";
+import "../ResponsiveCSS/followingresponsive.css";
 const Following = () => {
   return (
     <div className="following-container-wrapper">

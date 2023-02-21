@@ -1,15 +1,22 @@
 import "../componentcss/navbar.css";
+
 import { NavLink } from "react-router-dom";
+import { useTheme } from '../Context/ThemeContext';
 const Navbar = () => {
+
+  let { theme, setTheme, font, setFont } = useTheme();
+  console.log(theme)
+  console.log(font)
+
   return (
-    <nav className="navbar fixed-top">
+    <nav className="navbar fixed-top" style={{ backgroundColor: theme,color:font }}>
       {/* This is dropdown  */}
 
       {/* This is dropdown  */}
 
-      <section className="mid-navbar">
+      <section className="mid-navbar" >
         <NavLink to="/">
-          <div className="logo">
+          <div className="logo" >
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Quora_logo_2015.svg/1200px-Quora_logo_2015.svg.png"
               alt="logo"
@@ -21,7 +28,7 @@ const Navbar = () => {
             <NavLink
               to="/"
               className={({ isActive, isPending }) =>
-                isActive ? "red" : "blue"
+                isActive ? "act" : "blue"
               }
             >
               <i className="fa-solid fa-house-chimney"></i>
@@ -32,10 +39,10 @@ const Navbar = () => {
             <NavLink
               to="/following"
               className={({ isActive, isPending }) =>
-                isActive ? "red" : "blue"
+                isActive ? "act" : "blue"
               }
             >
-              <i className="fa-solid fa-list"></i>
+              <i className="fa-solid fa-table-list"></i>
             </NavLink>
           </div>
 
@@ -43,7 +50,7 @@ const Navbar = () => {
             <NavLink
               to="/answer"
               className={({ isActive, isPending }) =>
-                isActive ? "red" : "blue"
+                isActive ? "act" : "blue"
               }
             >
               <i className="fa-regular fa-pen-to-square"></i>
@@ -54,7 +61,7 @@ const Navbar = () => {
             <NavLink
               to="/spaces"
               className={({ isActive, isPending }) =>
-                isActive ? "red" : "blue"
+                isActive ? "act" : "blue"
               }
             >
               <i className="fa-solid fa-people-group"></i>
@@ -65,7 +72,7 @@ const Navbar = () => {
             <NavLink
               to="/notifications"
               className={({ isActive, isPending }) =>
-                isActive ? "red" : "blue"
+                isActive ? "act" : "blue"
               }
             >
               <i className="fa-regular fa-bell"></i>
@@ -76,8 +83,8 @@ const Navbar = () => {
             <i className="fa-solid fa-magnifying-glass"></i>
             <input type="text" placeholder="Search Quora" />
           </div>
-          <div className="tryquora log">
-            <span>Try Quora+</span>
+          <div className="tryquora log mx-3" style={{ color: theme === "#262626" ? "white" : "#262626" }}>
+            <span >Try Quora+</span>
           </div>
           <div className="user log">
             <div class="dropdown">
@@ -124,7 +131,9 @@ const Navbar = () => {
                   <i class="fa-solid fa-asterisk  mx-1"></i> Try Quora
                 </li>
                 <hr />
-                <li class="dropdown-item">Dark mode</li>
+                <li class="dropdown-item" onClick={() => setTheme(theme === "white" ? "#262626" : "white") || setFont(font === "#262626" ? "white" : "#262626")}>
+                  {theme === "white" ? "Dark Mode" : "Light Mode"}
+                </li>
                 <li class="dropdown-item mt-1">Setting</li>
                 <li class="dropdown-item mt-1">Language</li>
                 <li class="dropdown-item mt-1">Help</li>
@@ -150,7 +159,29 @@ const Navbar = () => {
             <i className="fa-solid fa-globe"></i>
           </div>
           <div className="button-addquestion log">
-            <button>Add Question</button>
+            <button className="add-question-wrapper">Add Question</button>
+
+
+
+
+
+
+
+
+            <button className="down-arrow">
+              <i
+                class="fa-solid fa-chevron-down"
+                style={{ fontSize: "15px" }}
+              ></i>
+            </button>
+            {/* <button onClick={showNavbar} className="nav-btn nav-close-btn"><i class="fa-solid fa-xmark"></i></button> */}
+          </div>
+          <div className="hamburger-menu">
+            {/* <button onClick={showNavbar} className="nav-btn">
+              <i class="fa-solid fa-bars"></i>
+            </button> */}
+
+
           </div>
         </div>
       </section>

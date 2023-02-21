@@ -3,7 +3,7 @@ import { discoverSpaces } from "../ArrayOfDatas/discoverSpaces";
 import "../componentcss/discoverspaces.css";
 function DiscoverSpaces() {
   return (
-    <div className="discover-space-wrapper" style={{ flexDirection: "column" }}>
+    <div className="discover-space-wrapper" style={{ flexDirection: "column"}}>
       {discoverSpaces.map((e) => (
         <div style={{ display: "flex" }} className="discover-space-comp">
           <div className="left-logo-wrapper">

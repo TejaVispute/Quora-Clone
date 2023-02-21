@@ -3,6 +3,7 @@ import YourInterests from "../components/YourInterests";
 import { useParams } from "react-router-dom";
 import "../pagescss/interestdetails.css";
 import { Interests } from "../ArrayOfDatas/interestsArr";
+import RelatedTopics from "../components/RelatedTopics";
 function InterestsDetails() {
   let { name } = useParams();
 
@@ -30,7 +31,9 @@ function InterestsDetails() {
             </div>
           </div>
         </div>
-        <div className="right-content-details">right</div>
+        <div className="right-content-details">
+          <RelatedTopics />
+        </div>
       </div>
     </div>
   );

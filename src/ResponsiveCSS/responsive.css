@@ -1,0 +1,111 @@
+/* Nav responsive css */
+@media screen and (max-width: 1360px) {
+    .navbar {
+
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    html {
+        font-size: 12px;
+    }
+
+    .mid-navbar {
+        width: 70%;
+
+    }
+
+    .input input {
+        display: none;
+    }
+
+    .button-addquestion {
+        display: none;
+    }
+
+    .tryquora {
+        display: none;
+    }
+
+    .pages .log {
+        margin-right: 1.3rem;
+
+    }
+
+    .logo {
+        padding: 5px;
+
+    }
+
+    .home-page {
+        width: 100%;
+    }
+
+    .left-section {
+        width: 20%;
+    }
+
+    .right-section {
+        display: none;
+    }
+
+    .mid-section {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 845px) {
+    .button-addquestion {
+        display: none;
+    }
+
+    .navbar {
+        height: auto;
+    }
+
+    .mid-navbar {
+        width: 85%;
+
+    }
+
+
+    .logo {
+        width: 7rem;
+
+    }
+
+    .logo img {
+        width: 7rem;
+
+    }
+
+    .input {
+        display: none;
+    }
+
+    .left-section {
+        display: none;
+    }
+
+    .mid-section {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .dropdown-menu {
+        /* position: fixed; */
+        /* background-color: red; */
+        margin-left: -8rem;
+    }
+}
+
+
+@media screen and (max-width: 1360px) {
+    .mid-navbar {
+        width: 95%;
+    }
+
+
+}

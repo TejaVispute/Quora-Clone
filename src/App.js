@@ -1,4 +1,5 @@
 import "./App.css";
+
 import Navbar from "./components/Navbar";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
@@ -10,11 +11,16 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Error from "./components/Error";
 import InterestsDetails from "./pages/InterestsDetails";
+import { useTheme } from "./Context/ThemeContext";
+
+
+
 function App() {
+
+  // console.log(theme)
   return (
     <div className="App">
       <Navbar />
-
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/following" element={<Following />}></Route>

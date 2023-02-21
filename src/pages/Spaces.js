@@ -1,5 +1,6 @@
 import Card from "../components/Card";
 import "../pagescss/spaces.css";
+import "../ResponsiveCSS/spacesresponsive.css"
 const Spaces = () => {
   return (
     <div className="spaces-wrapper">
@@ -23,6 +24,7 @@ const Spaces = () => {
               <h4 className="mt-2">Discover Spaces</h4>
               <h6 className="mt-3">Spaces you might like</h6>
               <div className="all-cards-categories mt-3">
+                {/* Cards  added here */}
                 <Card />
               </div>
             </div>

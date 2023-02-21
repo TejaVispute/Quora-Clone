@@ -1,6 +1,7 @@
-*{
+* {
     /* border: 1px solid red; */
 }
+
 .spaces-wrapper {
     margin-top: 5rem;
     /* background-color: aquamarine; */
@@ -8,7 +9,7 @@
     text-align: start;
     display: flex;
     justify-content: center;
-   
+
 }
 
 .spacesbox {
@@ -72,7 +73,7 @@
     background-color: #3a6eff2a;
 }
 
-.all-cards-categories{
+.all-cards-categories {
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;

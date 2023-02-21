@@ -1,8 +1,11 @@
 import React from "react";
 import "../componentcss/addquestions.css";
+import Modal from "./Modal";
+import { NavLink } from "react-router-dom";
 function AddQuestion() {
   return (
     <div className="add-que-wrapper">
+      <Modal />
       <div className="upper-qu">
         <div className="user-img">
           <img
@@ -15,18 +18,22 @@ function AddQuestion() {
         </div>
       </div>
       <div className="lower-qu">
-        <div>
+        <div data-bs-toggle="modal" data-bs-target="#staticBackdrop">
           <i class="fa-solid fa-question mx-2"></i> Ask
         </div>
         <div>
-          {" "}
-          <i class="fa-regular fa-pen-to-square mx-2"></i>Answer
+          <NavLink to="/answer" style={{ textDecoration: "none", color: "black" }}>
+            <i class="fa-regular fa-pen-to-square mx-2"></i>Answer
+          </NavLink>
         </div>
-        <div>
-          {" "}
+        <div data-bs-toggle="modal" data-bs-target="#staticBackdrop">
           <i class="fa-solid fa-pencil mx-2"></i>Post
         </div>
       </div>
+
+      {/* <!-- Button trigger modal --> */}
+
+      {/* <!-- Modal --> */}
     </div>
   );
 }

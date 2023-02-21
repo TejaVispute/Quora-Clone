@@ -1,5 +1,6 @@
 import "../pagescss/notifications.css";
 import { Filters } from "../ArrayOfDatas/filters";
+import "../ResponsiveCSS/notificationsresponsive.css"
 const Notifications = () => {
   return (
     <div className="notification-wrapper">
@@ -8,7 +9,8 @@ const Notifications = () => {
           <h5>Filters</h5>
           <hr />
 
-          {Filters.map((e) => (
+          { Filters.map((e) => (
+            
             <div
               className={({ isActive, isPending }) =>
                 isActive ? "red" : "black"

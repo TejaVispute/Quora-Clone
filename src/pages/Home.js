@@ -3,7 +3,12 @@ import AddQuestion from "../components/AddQuestion";
 import YourInterests from "../components/YourInterests";
 import Posts from "../components/Posts";
 import "../pagescss/home.css";
+import "../ResponsiveCSS/responsive.css";
+import { useTheme } from "../Context/ThemeContext";
+
 function Home() {
+  let { theme, setTheme, font, setFont } = useTheme();
+  console.log(theme, font)
   return (
     <>
       <div className="main-parent">
