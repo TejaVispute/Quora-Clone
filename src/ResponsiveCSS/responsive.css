@@ -13,7 +13,8 @@
     }
 
     .mid-navbar {
-        width: 70%;
+        width: 100%;
+        display: flex;
 
     }
 
@@ -40,11 +41,14 @@
     }
 
     .home-page {
+        margin-top: 2.5rem;
         width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .left-section {
-        width: 20%;
+        display: none;
     }
 
     .right-section {
@@ -52,8 +56,12 @@
     }
 
     .mid-section {
-        width: 75%;
+        width: 90%;
     }
+    .dropdown img{
+        width: 25px;
+    }
+
 }
 
 @media screen and (max-width: 845px) {
@@ -91,7 +99,7 @@
 
     .mid-section {
         width: 100%;
-        margin-top: 1rem;
+        margin-top: -1.2rem;
     }
 
     .dropdown-menu {
@@ -99,13 +107,18 @@
         /* background-color: red; */
         margin-left: -8rem;
     }
+
+    .pages {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 
-@media screen and (max-width: 1360px) {
-    .mid-navbar {
-        width: 95%;
+@media screen and (max-width: 1435px) {
+    .button-addquestion {
+
+        display: none;
+
     }
-
-
 }

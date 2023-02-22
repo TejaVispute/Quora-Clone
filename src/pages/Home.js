@@ -27,7 +27,7 @@ function Home() {
             />
             <img
               className="mt-2"
-              src="https://cdn.testbook.com/products/2022/July/26/__w-200-400-600__/Full-Stack-Development-Career-Program-(6-Months)_Course-Card.jpg.jpeg"
+              src="https://cdn.testbook.com/products/2022/July/14/__w-200-400-600__/image%20%281%29.png.png"
               alt=""
             />
           </div>
