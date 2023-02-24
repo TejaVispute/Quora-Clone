@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "../componentcss/posts.css";
 import { PostsData } from "../ArrayOfDatas/PostsData";
 import { usePostContext } from "../Context/PostContext"
 function Posts({ font, theme }) {
   let { obj } = usePostContext();
+  let [arrowColor, setArrowColor] = useState('black');
+  let [downVote, setDownVote] = useState('black');
+
+
+  console.log(downVote)
   return (
     <div className="posts-entery" >
       <div className="upper-section-post" style={{ backgroundColor: theme, color: font }}>
@@ -30,12 +35,12 @@ function Posts({ font, theme }) {
             </div>
             <div className="lower-post-section ">
               <div className="button-up-down flex">
-                <button className="flex">
-                  <span><i class="fa-solid fa-arrow-up mx-1"></i></span><span> Upvote</span>
+                <button className="flex" onClick={() => setArrowColor((prev) => prev === "black" ? "blue" : "black")} >
+                  <span><i style={{ color: arrowColor }} class="fa-solid fa-arrow-up mx-1"></i></span><span style={{ color: arrowColor }}> Upvote</span>
                 </button>
 
 
-                <button>
+                <button style={{color:downVote}} onClick={() => setDownVote((prev) => prev === "black" ? "red" : "black")}>
                   <i class="fa-solid fa-arrow-down"></i>
                 </button>
                 <button>
